@@ -13,6 +13,8 @@ python
 --maxlen 100          # Padding için maksimum metin uzunluğu
 --output_dim 32       # Embedding boyutu
 --lstm_units 32       # LSTM hücre sayısı
+
+
 📂 Dosya Yapısı
 .
 ├── config.py         # Hiperparametre yapılandırması
