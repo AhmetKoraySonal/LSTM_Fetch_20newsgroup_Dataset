@@ -27,6 +27,8 @@ python
 ├── lstm_model/       # Eğitilmiş modeller
 │   └── model_XX.h5   # Model dosyaları
 └── Plots/            # Eğitim grafikleri
+
+
 🚀 Kullanım
 
 
