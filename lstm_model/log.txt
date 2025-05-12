@@ -1,0 +1,5 @@
+model_01.h5: epoch=50, loss=0.0764, val_loss=1.9347, acc=0.9825, val_acc=0.7113
+model_02.h5: epoch=31, loss=0.1285, val_loss=1.7409, acc=0.9715, val_acc=0.6823
+model_03.h5: epoch=51, loss=1.1469, val_loss=2.0790, acc=0.5694, val_acc=0.3776
+model_04.h5: epoch=101, loss=1.7485, val_loss=1.9603, acc=0.4051, val_acc=0.3739
+model_05.h5: epoch=165, loss=1.2518, val_loss=1.7333, acc=0.5990, val_acc=0.5052
