@@ -2,32 +2,6 @@ LSTM ile Metin Sınıflandırma Projesi
 📌 Proje Açıklaması
 Bu proje, 20 Newsgroups veri seti üzerinde LSTM (Long Short-Term Memory) ağları kullanarak metin sınıflandırma yapan bir derin öğrenme modeli içermektedir. Model, farklı haber gruplarına ait metinleri otomatik olarak sınıflandırabilir.
 
-🛠 Teknik Detaylar
-
-⚙️ Hiperparametreler
-python
---epochs 200          # Eğitim iterasyon sayısı
---patience 5          # Erken durdurma için beklenen epoch
---batch_size 32       # Batch boyutu
---num_words 10000     # Tokenizer'ın kullanacağı max kelime sayısı
---maxlen 100          # Padding için maksimum metin uzunluğu
---output_dim 32       # Embedding boyutu
---lstm_units 32       # LSTM hücre sayısı
-
-
-📂 Dosya Yapısı
-.
-├── config.py         # Hiperparametre yapılandırması
-├── train.py          # Model eğitim scripti
-├── test.py           # Model test scripti
-├── exports/          # Eğitilmiş tokenizer ve label encoder
-│   └── model_XX/     # Model versiyonuna göre klasör
-│       ├── tokenizer.pkl
-│       └── label_encoder.pkl
-├── lstm_model/       # Eğitilmiş modeller
-│   └── model_XX.h5   # Model dosyaları
-└── Plots/            # Eğitim grafikleri
-
 
 🚀 Kullanım
 
