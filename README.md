@@ -3,12 +3,6 @@ LSTM ile Metin Sınıflandırma Projesi
 Bu proje, 20 Newsgroups veri seti üzerinde LSTM (Long Short-Term Memory) ağları kullanarak metin sınıflandırma yapan bir derin öğrenme modeli içermektedir. Model, farklı haber gruplarına ait metinleri otomatik olarak sınıflandırabilir.
 
 🛠 Teknik Detaylar
-🧠 Model Mimarisi
-Embedding Katmanı: 10,000 kelime kapasiteli, ayarlanabilir boyutlu (default: 32)
-
-LSTM Katmanı: Dropout ve recurrent dropout ile regularize edilmiş
-
-Çıkış Katmanı: 20 sınıf için softmax aktivasyonlu
 
 ⚙️ Hiperparametreler
 python
@@ -32,9 +26,13 @@ python
 │   └── model_XX.h5   # Model dosyaları
 └── Plots/            # Eğitim grafikleri
 🚀 Kullanım
+
+
 🔧 Eğitim
 bash
 python train.py [--epochs 200] [--batch_size 32] [--maxlen 100] ...
+
+
 🔍 Test
 bash
 python test.py
